@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhsp8r3jeqgnn"]
+
+[ext_resource type="Texture2D" uid="uid://jsy1qkipk723" path="res://Assets/outspace background.png" id="1_3tjnw"]
+[ext_resource type="Texture2D" uid="uid://dkh1dd6bvd0f4" path="res://Assets/alien_PNG86.png" id="2_35srp"]
+
+[node name="Icon" type="Sprite2D"]
+position = Vector2(293, 156)
+scale = Vector2(0.4375, 0.421875)
+texture = ExtResource("1_3tjnw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-532.571, 227.556)
+scale = Vector2(0.226398, 0.206564)
+texture = ExtResource("2_35srp")
